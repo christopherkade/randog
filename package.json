@@ -1,7 +1,7 @@
 {
   "name": "@christopherkade/randog",
   "description": "A CLI to fetch cute dog pictures",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "randog.js",
   "homepage": "https://github.com/christopherkade/randog#readme",
   "author": "Christopher Kade",

@@ -1,3 +1,5 @@
+# random + dog = randog
+
 Fetch and display a picture of a random dog right in your terminal.
 
 ## Installation
@@ -7,6 +9,20 @@ Fetch and display a picture of a random dog right in your terminal.
 Or, if you just want a quick look without installing it:
 
 `npx @christopherkade/randog`
+
+## Usage
+
+```
+$ randog --help
+
+  Usage
+    $ randog
+    $ randog --breed="breed name"
+
+  Examples
+    $ randog
+    $ randog --breed="shiba"
+```
 
 ## Screenshot
 
