@@ -1,19 +1,29 @@
 {
-  "name": "randog",
-  "version": "1.0.0",
+  "name": "@christopherkade/randog",
   "description": "A CLI to fetch cute dog pictures",
-  "homepage": "https://github.com/christopherkade/randog",
+  "version": "1.0.1",
   "main": "randog.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/christopherkade/randog#readme",
+  "author": "Christopher Kade",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherkade/randog.git"
   },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
   "keywords": [
     "cli",
     "dog",
     "random"
   ],
-  "author": "Christopher Kade",
-  "license": "MIT",
+  "bin": {
+    "randog": "./randog.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@sindresorhus/jimp": "^0.3.0",
     "axios": "^0.18.0",
@@ -23,7 +33,5 @@
     "terminal-image": "^0.1.2",
     "yargs": "^12.0.5"
   },
-  "bin": {
-    "randog": "./randog.js"
-  }
+  "license": "MIT"
 }

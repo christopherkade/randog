@@ -1,5 +1,19 @@
 Fetch and display a picture of a random dog right in your terminal.
 
+## Installation
+
+`npm install -g @christopherkade/randog`
+
+Or, if you just want a quick look without installing it:
+
+`npx @christopherkade/randog`
+
+## Screenshot
+
+<p align="center">
+  <img height="400" src="https://user-images.githubusercontent.com/15229355/52140931-72676d80-2654-11e9-8ea1-1ee6feee2e8c.png">
+</p>
+
 ## Why?
 
 Why not?
