@@ -1,5 +1,7 @@
 # random + dog = randog
 
+[![badge](https://img.shields.io/badge/npm-v1.1.0-blue.svg)](https://www.npmjs.com/package/@christopherkade/randog)
+
 Fetch and display a picture of a random dog right in your terminal.
 
 ## Installation
